@@ -70,6 +70,7 @@ ul{
     padding-bottom: 10px;
 }
 .signup{
+    border-radius: 25px;
     max-width: 100px;
     background-color: #3882f6;
     color: white;
@@ -126,5 +127,37 @@ ul{
     font-weight: bolder;
     padding: 10px;
     margin-left: 310px;
-    
 }
+.bottomdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.box{
+    padding: 80px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.rate{
+    width: 100px;
+    color: black;
+    background-color: white;
+}
+.boxtext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.titlebox{
+    font-size: 24px;
+    font-weight: bold;
+}
+.subtextbox{
+    margin-right: 100px;
+}
+
