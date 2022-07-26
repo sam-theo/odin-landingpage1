@@ -31,7 +31,9 @@ a{
 a:hover{
     color: #3882f6;
 }
-
+.signup:hover{
+    color: #1F2937;
+}
 ul{
     list-style-type: none;
     display: flex;
@@ -147,6 +149,9 @@ ul{
     color: black;
     background-color: white;
 }
+.rate:hover{
+    color: #3882f6;
+}
 .boxtext{
     display: flex;
     flex-direction: column;
@@ -160,4 +165,14 @@ ul{
 .subtextbox{
     margin-right: 100px;
 }
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
